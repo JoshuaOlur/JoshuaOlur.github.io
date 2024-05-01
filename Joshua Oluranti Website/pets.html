@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <meta name="description" content="Discover why certain fish species make great pets and share your insights with us! Join our community in exploring the world of fish pets at Fish Frenzy.">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="Home.html"><img src="images/Fish_Frenzy.jpg" alt="Fish Frenzy Logo" class="logo"></a>
+            <div class="header-title">
+                <h1>Pets</h1>
+            </div>
+            <a href="Home.html"><img src="images/Fish_Frenzy.jpg" alt="Fish Frenzy Logo" class="logo"></a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Fish_Species.html">Fish Species</a></li>
+            <li><a href="Fish_Habitats.html">Fish Habitats</a></li>
+            <li><a href="Fish_Diet.html">Fish Diet</a></li>
+            <li><a href="Fish_Life_Cycle.html">Fish Life Cycle</a></li>
+            <li><a href="Endangered_Species.html">Endangered Species</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form id="feedbackForm" action="https://formspree.io/f/xyyroyaz" method="post">
+            <div class="form-item">
+                <label for="fish_species">Fish Species Name:</label>
+                <input type="text" id="fish_species" name="fish_species">
+            </div>
+            <div class="form-item">
+                <label for="why_pet">Why you think it makes a good pet:</label>
+                <textarea id="why_pet" name="why_pet"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        Copyright © 2035 FishFrenzy
+        <p><i><a href="mailto:jo00087@my.westga.edu">Joshua@Oluranti.com</a></i></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
